@@ -26,9 +26,7 @@ SECRET_KEY = 'django-insecure-6$nmt3$kju9bcouz5maednd&zmm8x5+o2h&!0o8__k^5zyg-q9
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    "tourist-backend-j0qo.onrender.com",
-    "localhost",
-    "127.0.0.1",
+   *
 ]
 
 
@@ -44,7 +42,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework.authtoken',
     'corsheaders',
-    'djangorestframework',
+    
     'api',
 ]
 
